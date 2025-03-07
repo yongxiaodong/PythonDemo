@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 
 # 暴露端口
-EXPOSE 5000
+
 
 # 运行应用
 CMD ["python", "app.py"]
